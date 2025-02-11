@@ -1,0 +1,28 @@
+# Ignore Python bytecode files and cache
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore environment directories (e.g., virtualenvs)
+venv/
+.env
+
+# Ignore Dockerfiles and Docker-related config files
+Dockerfile
+.dockerignore
+
+# Ignore unnecessary logs or temp files
+*.log
+*.tmp
+
+# Ignore any other unneeded directories or files
+*.swp
+*.bak
+*.DS_Store
+
+# Ignore the image output (if present)
+flux-dev.png
