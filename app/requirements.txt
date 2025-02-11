@@ -1,8 +1,0 @@
-torch
-torchvision
-transformers
-diffusers
-accelerate
-pillow
-flask
-gunicorn
