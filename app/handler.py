@@ -1,10 +1,13 @@
+import runpod
 import os
 from dotenv import load_dotenv
 import torch
 
 load_dotenv()
 
-# Retrieve the Hugging Face login token
+runpod.api_key = os.getenv("RUNPOD_API_KEY")
+
+
 HUGGING_FACE_LOGIN = os.getenv("HUGGING_FACE_LOGIN")
 
 print(torch.version.cuda)  # Should show CUDA version
